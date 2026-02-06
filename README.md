@@ -6,7 +6,8 @@ CATGREP:
 - grep — реализация утилиты grep
 
 STRING:
-реализация функций из библиотеки <string.h>:
-- memcpy, memcmp, memchr. memset
-- strncat, strchr, strncmp, strncpy, strcspn, strerror, strlen, strpbrk, strrchr, strstr, strtok
+
+Реализация функций из библиотеки <string.h>:
+- memcpy, memcmp, memchr, memset
+- strncat, strchr, strncmp, strncpy, strcspn, strerror, strlen, strpbrk, strrchr, strstr, strtok.
 Также реализованы unit-тесты и формирование отчёта покрытия кода (gcov).
